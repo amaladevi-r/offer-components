@@ -8,3 +8,4 @@ export {default as Usp} from "./Usp";
 export {CardCategoryList} from "./CardCategory";
 export {CardNetworkList} from "./CardNetwork";
 export {CardFeeTypeList} from "./CardFeeType";
+export {default as Apr} from "./Apr.js";

@@ -11,6 +11,7 @@ import * as Usp from "./Usp";
 import YesNoRenderer from "./YesNo.js";
 import * as TextAndAdditionalInfo from "./TextAndAdditionalInfo.js";
 import * as CardCategory from "./CardCategory.js";
+import Apr from "./Apr.js";
 
 export const RatingItemRenderer = {
     renderer: ReviewsSummary.RatingItemRenderer,
@@ -93,4 +94,10 @@ export const TopCardCategoriesRenderer = {
     renderer: CardCategory.TopCategoriesRenderer,
     title: "CARD CATEGORIES",
     getDomain: (offerModel) => offerModel.getCardCategoryList()
+};
+
+export const AprRenderer = {
+    renderer: Apr,
+    title: "APR",
+    getDomain: (offerModel) => offerModel.getApr()
 };

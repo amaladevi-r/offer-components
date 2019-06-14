@@ -22,6 +22,7 @@ export default class Offer {
         this._offer.cardFeeTypeList = new Domains.CardFeeTypeList(offerData.cardFeeTypeList);
         this._offer.rewards = new Domains.TextAndAdditionalInfoList(offerData.rewards);
         this._offer.joiningPerks = new Domains.TextAndAdditionalInfoList(offerData.joiningPerks);
+        this._offer.apr = new Domains.Apr(offerData.aprList);
     }
 
     getId() {
@@ -94,6 +95,10 @@ export default class Offer {
 
     getFuelSurchargeWaiver() {
         return this._offer.fuelSurchargeWaiver;
+    }
+
+    getApr() {
+        return this._offer.apr;
     }
 }
 

@@ -21,6 +21,7 @@ const layoutConfiguration = {
                 DomainRenderers.TopCardCategoriesRenderer,
                 DomainRenderers.CreditCardFirstYearFeeItemRenderer,
                 DomainRenderers.CreditCardSecondYearFeeItemRenderer,
+                DomainRenderers.AprRenderer,
                 DomainRenderers.RewardsOneLineRenderer,
                 DomainRenderers.MoreRewardsRenderer,
                 DomainRenderers.JoiningPerksOneLineRenderer,
